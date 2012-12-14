@@ -8,10 +8,46 @@
 </head>
 <body>
 <div class="container-fluid">
-  <div id="header" style="border:1px solid #cdcdcd;height:100px;">
-    <img src="http://placehold.it/300x100" />
+
+  <div class="row-fluid" id="header" style="">
+    <div class="span9">
+      <img src="http://placehold.it/320x100" /> 
+    </div>
+    <div class="span3" id="username">
+      <h4>UserName</h4>
+      <p>Saturday, November 17, 2012</p>
+    </div>
   </div>
-  <%= yield %>
+
+  <div class="row-fluid">
+    <div class="span2">
+      <ul class="nav nav-tabs nav-stacked">
+        <li class="disabled"><a href="#">Dashboard</a></li>
+        <li><a href="#">Manage Publications</a></li>
+        <li><a href="#">Manage Merchants</a></li>
+        <li><a href="#">View Analytics</a></li>
+        <li><a href="#">Push Notices</a></li>
+        <li><a href="#">Manage Offers</a></li>
+        <li><a href="#">Manage Subscriptions</a></li>
+        <li><a href="#">Manage Coupons</a></li>
+        <li><a href="#">Manage Ad Categories</a></li>
+        <li><a href="#">Manage User Accounts</a></li>
+        <li><a href="#">Manage Training Materials</a></li>
+        <li><a href="#">Log Out</a></li>
+      </ul>	
+    </div>
+    <div class="span10" id="main-content"><%= yield %></div>
+  </div>
+
+  <div class="row-fluid" id="footer">
+    <div class="span12">
+      <img src="http://placehold.it/300x50" />
+      <small>If you have any questions or need assistance, please feel free to contact us 1-800-882-7151 ext 2</small>
+      <span style="display:block;float:right;padding-right:15px;"><small>Copyright &copy; 2012 iCampus Times, All Rights Reserved.</small></span>
+
+    </div>
+  </div>
+
 </div>
 </body>
 </html>
