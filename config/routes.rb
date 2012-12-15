@@ -1,6 +1,12 @@
 Tdr::Application.routes.draw do
   get "pages/index"
 
+  get "pages/eatwell"
+
+  get "pages/havebook"
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
