@@ -34,6 +34,4 @@ Tdr::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
-
-  config.action_controller.relative_url_root = "/rails"
 end
