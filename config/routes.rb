@@ -1,5 +1,6 @@
 Tdr::Application.routes.draw do
   get "pages/index"
+  get "pages/add_merchant"
 
   get "pages/eatwell"
 
