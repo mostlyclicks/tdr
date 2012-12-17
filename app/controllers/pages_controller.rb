@@ -3,7 +3,9 @@ class PagesController < ApplicationController
   end
 
   def add_merchant
+  end
 
+  def publication_listing
   end
 
   def eatwell
