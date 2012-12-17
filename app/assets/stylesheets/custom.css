@@ -41,6 +41,11 @@
 	border-radius: 10px;
 }
 
+/*Tables*/
+.table-striped tbody tr:nth-child(even) td {background-color:#e4e4e3;}
+.table-striped tbody tr:nth-child(odd) td {background-color:#ffffff;}
+thead, tbody th {background-color:#e4e4e3;}
+
 .controls {margin-bottom:1em;}
 
 #footer {border:1px solid #cdcdcd;margin-top:20px;min-height:50px;line-height:50px;}
