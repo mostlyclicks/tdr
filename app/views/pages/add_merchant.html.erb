@@ -1,5 +1,155 @@
 <h3>Add Merchant</h3>
+
+   
+
 <div class="row-fluid">
-  <div class="span5 red-border"></div>
-  <div class="span7 red-border"></div>
+  <div class="span5">
+  	<div class="form-inline">
+  		<div class="control-group">
+  			<div class="controls">
+  				<div class="input-append">
+      				<input class="span10" id="calendar" type="text" value="Account Start Date">
+      				<span class="add-on"><i class="icon-calendar"></i></span>
+  				</div>
+  				<button type="submit" class="btn">Update</button>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class="control-group">
+  	<table class="table table-striped table-bordered table-condensed">
+  		<thead>
+  			<tr>
+  				<th>Term</th>
+  				<th>End Date</th>
+  				<th>Static Ad Account</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  			<tr>
+  				<td>12 Months</td>
+  				<td>November 28, 2013</td>
+  				<td><label class="radio"><input type="radio" class="control" />0.00</label></td>
+  			</tr>
+  			<tr>
+  				<td>9 Months</td>
+  				<td>August 28, 2013</td>
+  				<td><label class="radio"><input type="radio" class="control" />0.00</label></td>
+  			</tr>
+  			<tr>
+  				<td>8 Months</td>
+  				<td>July 28, 2013</td>
+  				<td><label class="radio"><input type="radio" class="control" />0.00</label></td>
+  			</tr>
+  			<tr>
+  				<td>7 Months</td>
+  				<td>June 28, 2013</td>
+  				<td><label class="radio"><input type="radio" class="control" />0.00</label></td>
+  			</tr>
+  			<tr>
+  				<td>6 Months</td>
+  				<td>May 28, 2013</td>
+  				<td><label class="radio"><input type="radio" class="control" />0.00</label></td>
+  			</tr>
+  			<tr>
+  				<td>5 Months</td>
+  				<td>April 28, 2013</td>
+  				<td><label class="radio"><input type="radio" class="control" />0.00</label></td>
+  			</tr>
+  			<tr>
+  				<td>4 Months</td>
+  				<td>March 28, 2013</td>
+  				<td><label class="radio"><input type="radio" class="control" />0.00</label></td>
+  			</tr>
+  			<tr>
+  				<td>3 Months</td>
+  				<td>February 28, 2013</td>
+  				<td><label class="radio"><input type="radio" class="control" />0.00</label></td>
+  			</tr>
+  			<tr>
+  				<td>2 Months</td>
+  				<td>January 28, 2013</td>
+  				<td><label class="radio"><input type="radio" class="control" />0.00</label></td>
+  			</tr>
+  		</tbody>
+  	</table>
+  </div>
+
+
+
+
+
+  </div>
+
+
+  <div class="span7">
+  	<p style="text-align:right;margin-right:50px;"><em>Fields marked * are required</em></p>
+    <div class="form-horizontal">
+      <div class="control-group">
+        <label class="control-label">Email Address* <a href="#" id="popover" rel="tooltip" title="A valid and unique email addres must be entered for the advertiser"><i class="icon-question-sign"></i></a></label>
+        <div class="controls"><input type="text" name="email" class="span11" /></div>
+
+         <label class="control-label">Confirm Email Address* <a href="#" id="popover2" rel="tooltip" title="This is a tooltip"><i class="icon-question-sign"></i></a></label>
+        <div class="controls"><input type="text" name="confirm-email" class="span11" /></div>
+
+        <label class="control-label">First Name* <a href="#" id="popover2" rel="tooltip" title="This is a tooltip"><i class="icon-question-sign"></i></a></label>
+        <div class="controls"><input type="text" name="first-name" class="span11" /></div>
+
+        <label class="control-label">Last Name* <a href="#" id="popover2" rel="tooltip" title="This is a tooltip"><i class="icon-question-sign"></i></a></label>
+        <div class="controls"><input type="text" name="last-name" class="span11" /></div>
+
+        <label class="control-label">Business Name* <a href="#" id="popover2" rel="tooltip" title="This is a tooltip"><i class="icon-question-sign"></i></a></label>
+        <div class="controls"><input type="text" name="business-name" class="span11" /></div>
+
+        <label class="control-label">Business Phone* <a href="#" id="popover2" rel="tooltip" title="This is a tooltip"><i class="icon-question-sign"></i></a></label>
+        <div class="controls"><input type="text" name="business-phone" class="span11" /></div>
+
+        <label class="control-label">Business Address* <a href="#" id="popover2" rel="tooltip" title="This is a tooltip"><i class="icon-question-sign"></i></a></label>
+        <div class="controls"><input type="text" name="business-address" class="span11" /></div>
+
+        <label class="control-label">City* <a href="#" id="popover2" rel="tooltip" title="This is a tooltip"><i class="icon-question-sign"></i></a></label>
+        <div class="controls form-inline">
+	    
+	        <input type="text" name="city" class="span3" />
+	        <label style="margin-left:1em;">State* <a href="#" id="popover2" rel="tooltip" title="This is a tooltip"><i class="icon-question-sign"></i></a></label>
+	        
+	        <select name="state" class="span2">
+                <option selected="selected">State</option>
+                <option>WI</option>
+                <option>MN</option>
+             </select>
+
+             <label style="margin-left:1em;">Zip* <a href="#" id="popover2" rel="tooltip" title="This is a tooltip"><i class="icon-question-sign"></i></a></label>
+             <input type="text" name="zip" class="span3" />
+	        
+    	</div>
+
+    	<label class="control-label">Contact Phone* <a href="#" id="popover2" rel="tooltip" title="This is a tooltip"><i class="icon-question-sign"></i></a></label>
+        <div class="controls"><input type="text" name="contact-phone" class="span11" /></div>
+
+        <label class="control-label">Contact Phone* <a href="#" id="popover2" rel="tooltip" title="This is a tooltip"><i class="icon-question-sign"></i></a></label>
+        <div class="controls">
+        	<select>
+        		<option selected="selected">Select</option>
+        		<option>CSR 1</option>
+        		<option>CSR 2</option>
+        		<option>CSR 3</option>
+        		<option>CSR 4</option>
+        		<option>CSR 5</option>
+        	</select>	
+
+        </div>
+        <button class="btn span4 offset7">Proceed to Checkout</button>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
+<script>
+     (function(){
+       $('#popover').tooltip('hide')
+     })();
+   </script>
+

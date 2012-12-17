@@ -21,6 +21,7 @@
 
 #main-content {border:1px solid #cdcdcd;padding:20px;min-height:500px;}
 #main-content h3 {border-bottom:1px solid #cdcdcd;}
+#main-content .control-label {font-size:12px;}
 #main-content {
 	background: #ffffff; /* Old browsers */
 	 IE9 SVG, needs conditional override of 'filter' to 'none' */
