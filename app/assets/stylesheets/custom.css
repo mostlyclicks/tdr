@@ -1,3 +1,4 @@
+.redborder {border:1px solid red;}
 #header {border:1px solid #cdcdcd;margin-bottom:15px;}
 
 #username {text-align:right;padding-right:15px;padding-top:1em;}
@@ -6,13 +7,15 @@
 
 #main-content {border:1px solid #cdcdcd;padding:20px;min-height:500px;}
 #main-content h3 {border-bottom:1px solid #cdcdcd;}
-#main-content .control-label {font-size:12px;}
+#main-content .control-label, .form-inline label {font-size:12px;}
 
 #main-content {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 }
+
+.instructions {display:block;margin-top:10px;line-height:1.25em;}
 
 .left-nav {}
 .left-nav ul.nav li {text-align:center;}
@@ -27,8 +30,6 @@ thead, tbody th {background-color:#e4e4e3;}
 #teal.table-striped tbody tr:nth-child(even) td {background-color:#c4d8dd;}
 .table-striped tbody tr:nth-child(odd) td {background-color:#ffffff;}
 thead, tbody th {background-color:#e4e4e3;}
-
-
 
 
 .controls {margin-bottom:1em;}

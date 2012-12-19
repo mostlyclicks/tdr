@@ -8,6 +8,9 @@ class PagesController < ApplicationController
   def publication_listing
   end
 
+  def add_publication
+  end
+
   def eatwell
 
   end
