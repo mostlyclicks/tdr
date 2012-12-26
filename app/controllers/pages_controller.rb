@@ -11,6 +11,15 @@ class PagesController < ApplicationController
   def add_publication
   end
 
+  def edit_publication
+  end
+
+  def your_app
+  end
+
+
+
+
   def eatwell
 
   end

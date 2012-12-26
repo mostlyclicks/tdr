@@ -3,6 +3,8 @@ Tdr::Application.routes.draw do
   get "pages/add_merchant"
   get "pages/publication_listing"
   get "pages/add_publication"
+  get "pages/edit_publication"
+  get "pages/your_app"
 
   get "pages/eatwell"
 

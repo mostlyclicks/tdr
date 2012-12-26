@@ -15,6 +15,8 @@
 	border-radius: 10px;
 }
 
+.float-left {float:left;}
+
 .instructions {display:block;margin-top:10px;line-height:1.25em;}
 
 .left-nav {}
@@ -35,3 +37,39 @@ thead, tbody th {background-color:#e4e4e3;}
 .controls {margin-bottom:1em;}
 
 #footer {border:1px solid #cdcdcd;margin-top:20px;min-height:50px;line-height:50px;}
+
+/*Sprites*/
+.edit-icon 			{background:url(sprites.png) 0px -137px no-repeat;width:32px;height:25px;}
+.status-green-icon 	{background:url(sprites.png) 0px -27px no-repeat;width:32px;height:25px;}
+.status-red-icon 	{background:url(sprites.png) 0px -53px no-repeat;width:32px;height:25px;}
+.selected-icon		{background:url(sprites-select.png) 0px -31px no-repeat;width:20px;height:25px;float:left;margin-right:0px;}
+.not-selected-icon	{background:url(sprites-select.png) 0px -4px no-repeat;width:20px;height:25px;float:left;}
+
+.contact-information	{background:url(vertical-bg-sprites.png) 0px -200px no-repeat;width:29px;height:198px;position:absolute;margin-top:-14px;}
+.ios 					{background:url(vertical-bg-sprites.png) 0px -400px no-repeat;width:29px;min-height:122px;position:absolute;margin-top:-14px;}	
+.android				{background:url(vertical-bg-sprites.png) 0px -600px no-repeat;width:29px;min-height:122px;position:absolute;margin-top:-14px;}	
+.admin					{background:url(vertical-bg-sprites.png) 0px -0px no-repeat;width:29px;min-height:198px;position:absolute;margin-top:-14px;}	
+
+/*
+.status-widget {float:left;}*/
+.active {float:left;margin-right:15px;}
+
+
+.td-center {text-align:center !IMPORTANT;}
+
+.layout-block {width:32%;float:left;height:125px;background-color:#dfdfde;border:2px solid #a1a1a1;}
+.block-selected {background-color:#b4b5b4;border:2px solid #000000;}
+.edit-block {padding:5px;margin:5px;background-color:#efefef;width:15px;	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;}
+
+.red {color:red;}
+.green {color:green;}
+
+.inner-padding {padding:10px;}
+.smaller tbody tr td, .smaller thead tr th {font-size:85%;}
+.margin-left-button {margin-left:10px;}
+
+
+.error {margin-bottom:0 !IMPORTANT;}
