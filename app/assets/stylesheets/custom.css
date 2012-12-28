@@ -24,14 +24,22 @@
 .left-nav ul.nav li a {color:#939598;font-weight:bold;}
 
 /*Tables*/
-table {margin-top:1em;}
+table {margin-top:1em;border:1px solid #a2a2a2 !IMPORTANT;}
+th {border:1px solid #777777;}
+th:last-child {border-right:none;}
+
+/*.table-bordered th, .table-bordered td {border:1px solid #a2a2a2;}
+.table-bordered td {border:1px solid #a2a2a2;}*/
 .table-striped tbody tr:nth-child(even) td {background-color:#e4e4e3;}
 .table-striped tbody tr:nth-child(odd) td {background-color:#ffffff;}
 thead, tbody th {background-color:#e4e4e3;}
-
 #teal.table-striped tbody tr:nth-child(even) td {background-color:#c4d8dd;}
 .table-striped tbody tr:nth-child(odd) td {background-color:#ffffff;}
 thead, tbody th {background-color:#e4e4e3;}
+
+
+/*tabs*/
+.nav-tabs li a {background-color:#e4e4e3;}
 
 
 .controls {margin-bottom:1em;}
